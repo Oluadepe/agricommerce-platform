@@ -3,7 +3,7 @@
 
 ## Status
 
-Proposed
+Accepted
 
 ## Date
 
@@ -152,9 +152,9 @@ flowchart TD
         ENDPOINT --> CP2
         ENDPOINT --> CP3
 
-        CP1 -.-> WK1
-        CP2 -.-> WK2
-        CP3 -.-> WK3
+        WK1 --> ENDPOINT
+        WK2 --> ENDPOINT
+        WK3 --> ENDPOINT
 
         VOL1[(Local Persistent Storage)]
         VOL2[(Local Persistent Storage)]
